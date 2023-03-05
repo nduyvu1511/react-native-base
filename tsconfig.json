@@ -1,0 +1,41 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["./src/types/lib.d.ts", "./node_modules"],
+    "baseUrl": "./",
+    "skipLibCheck": true,       
+    "paths": {
+      // "@/*": [
+      //   "./src/*"
+      // ],
+      "@/components": ["./src/components/index.ts"],
+      "@/components/*": ["./src/components/*"],
+      "@/theme": ["./src/theme/index.ts"],
+      "@/theme/*": ["./src/theme/*"],
+      "@/types": ["./src/types/index.ts"],
+      "@/types/*": ["./src/types/*"],
+      "@/services": ["./src/services/index.ts"],
+      "@/services/*": ["./src/services/*"],
+      "@/utils": ["./src/utils/index.ts"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/helpers": ["./src/helpers/index.ts"],
+      "@/helpers/*": ["./src/helpers/*"],
+      "@/hooks": ["./src/hooks/index.ts"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/assets": ["./src/assets/index.ts"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/constants": ["./src/constants/index.ts"],
+      "@/constants/*": ["./src/constants.ts/*"],
+      "@/screens": ["./src/screens/index.ts"],
+      "@/screens/*": ["./src/screens/*"],
+      "@/screen-components": ["./src/screens/components/index.ts"],
+      "@/screen-components/*": ["./src/screens/components/*"],
+      "@/store/*": ["./src/store/*"],
+      "@/store": ["./src/store/index.ts"],
+      "@/navigation/*": ["./src/navigation/*"],
+      "@/navigation": ["./src/navigation/index.ts"],
+      
+    }
+  }
+}

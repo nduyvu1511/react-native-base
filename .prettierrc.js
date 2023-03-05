@@ -1,0 +1,23 @@
+module.exports = {
+  // arrowParens: 'avoid',
+  // bracketSameLine: true,
+  // bracketSPACING: false,
+  // singleQuote: true,
+  // trailingComma: 'none',
+  // parser: 'flow',
+  // arrowParens: 'always',
+  // bracketSPACING: true,
+  // jsxBracketSameLine: false,
+  // jsxSingleQuote: false,
+  // quoteProps: 'as-needed',
+  // singleQuote: true,
+  // semi: true,
+  // printWidth: 100,
+  // useTabs: false,
+  // tabWidth: 2
+  trailingComma: 'es5',
+  tabWidth: 2,
+  semi: false,
+  singleQuote: true,
+  printWidth: 100,
+};
